@@ -1,0 +1,10 @@
+- Install Ruby on Rails
+- Create MySQL database by mysql command : create database database_name;
+- Import data from file database.sql using: mysql -u mysql_user_name -p database_name < source_root/database.sql
+- Edit in file source_root/config/database.yml as below
+	+ adapter: mysql2
+	+ encoding: utf8
+	+ database: database_name
+	+ username: mysql_user_name
+	+ password: mysql_user_pass
+- Start Ruby on Rails server
